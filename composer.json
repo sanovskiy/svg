@@ -1,0 +1,26 @@
+{
+  "name": "sanovskiy/svg",
+  "version": "dev-master",
+  "description": "SVG lib based on DOM",
+  "type": "library",
+  "keywords": [
+    "SVG"
+  ],
+  "license": "Apache-2.0",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "authors": [
+    {
+      "name": "Pavel Terentyev",
+      "email": "pavel.terentyev@gmail.com",
+      "homepage": "http://terentyev.info",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "sanovskiy\\svg\\": "src"
+    }
+  }
+}
